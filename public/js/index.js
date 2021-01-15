@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8080');
+const socket = io('https://socket-server-kevin.herokuapp.com/');
 
 const message = document.getElementById('message');
 const form = document.getElementById('form');
